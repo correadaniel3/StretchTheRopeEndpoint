@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stretch The Rope</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/jQueryRotate.js" type="text/javascript"></script>
+        <script src="js/websocket.js" type="text/javascript"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+        <div id="overlay">
+            <div id="overlay2">
+                <h3 id="playerText"></h3>
+                <h1 id="contador">3</h1>
+                <br>
+            </div>
+        </div>
+        <h1>Stretch The Rope</h1>
+        <div id="content">
+			<img id="rope" src="img/rope.png">
+            <span id="pos"></span>
+            <div id="board">
+                <div id="background">
+                    <div id="leftBackground">
+                        <h1 id="marcadorL" class="marcador">0</h1>
+                    </div>
+                    <div id="rightBackground">
+                        <h1 id="marcadorR" class="marcador">0</h1>
+                    </div>
+                </div>
+                <img id="left" class="barras" src="img/l.PNG">
+                <img id="ball" src="img/ball.png">
+                <img id="right" class="barras" src="img/r.PNG">
+            </div>
+            <div id="mobileButtons">
+                <img src="img/leftButton.png" class="arrow" id="leftButton"><img src="img/rightButton.png" class="arrow" id="rightButton">
+            </div>
+        </div>
+    </body>
+</html>

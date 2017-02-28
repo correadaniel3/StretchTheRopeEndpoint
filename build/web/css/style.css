@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Gloria Hallelujah;
+    src: url("../font/GloriaHallelujah.ttf");
+    font-weight:400;
+}
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+h3{
+   font-family: 'Gloria Hallelujah', cursive; 
+   font-size: 2em;
+   text-align: center;
+}
+#content{
+    height: 100%;
+    width: 100%;
+}
+#board{
+    height: 100%;
+    width: 800px;
+    margin: 0 auto;
+}
+img.barras {
+	z-index: 2;
+    height: 400px;
+    width: 30px;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+#ball{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 350px;
+    top:180px;
+	z-index: 2;
+}
+div#mobileButtons{
+    text-align: center;
+}
+.arrow:first-of-type{
+    margin-right: 85px;
+}
+.arrow{
+    display: none;
+}
+#background{
+    position: absolute;
+    z-index: -1;
+    display: flex;
+}
+#leftBackground{
+    background-color: rgba(38, 128, 38, 0.3);
+    height: 400px;
+    width: 398px;
+    margin-left: 2px;
+    border-radius: 20px 0px 0px 20px;
+}
+#rightBackground{
+    background-color: rgba(189, 27, 46, 0.3);
+    height: 400px;
+    width: 398px;
+    margin-right: 2px;
+    border-radius: 0px 20px 20px 0px;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    z-index: 10000;
+    display: table;
+}
+#overlay2{
+    display: table-cell;
+    vertical-align: middle;
+}
+#overlay h1{
+    font-size: 4em;
+    margin: auto;
+}
+#overlay h1, #overlay h3{
+    color: white;
+}
+.marcador{
+    font-size: 7em;
+    color:rgba(0, 0, 0, 0.6);
+	z-index: 2;
+}
+#rope {
+    left: calc(50% - 373px);
+    width: 746px;
+    height: 20px;
+    position: relative;
+    top: 215px;
+    z-index: 1;
+}
+img#rope{
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+
